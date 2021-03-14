@@ -1,0 +1,80 @@
+/* Default */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+	scroll-behavior: smooth;
+}
+
+:root {
+	--fonte-titulo: 'Montserrat', sans-serif;
+	--roxo: #822a63;
+}
+
+#container {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+#container .menu-lateral {
+	width: 25%;
+	height: auto;
+	background-color: var(--roxo);
+}
+
+#container .conteudo {
+	width: 75%;
+}
+
+.menu-lateral .title {
+	text-align: center;
+	color: white;
+	font-size: 2.5rem;
+	margin: 50px 5px;
+	font-family: var(--fonte-titulo);
+}
+
+.nav {
+	margin-left: 25px;
+}
+
+.link-nav {
+	color: deepskyblue;
+	text-align: center;
+}
+
+.sub-topico {
+	margin-left: 50px;
+	list-style: none;
+}
+
+.section-topico {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.titulo-topico {
+	font-size: 3.5em;
+}
+
+#seta {
+	display: none;
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	background-color: var(--roxo);
+	border-radius: 25px;
+	transition: .5s;
+}
+
+#seta img {
+	width: 50px;
+	height: 50px;
+	filter: invert(100%);
+	padding: 10px;
+}

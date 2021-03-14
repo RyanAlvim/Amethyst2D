@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Amethyst - Documentação</title>
+	<!-- Meta Tags -->
+	<meta name="description" content="Site destinado a documentação da biblioteca Amethyst, uma biblioteca para jogos 2D, feita totalmente em Java.">
+	<meta name="author" content="Amethyst">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Font's -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main id="container">
+		<section class="menu-lateral">
+			<h1 class="title">Documentação</h1>
+			<ul class="nav">
+				<li><a href="#frist" class="link-nav">Primeiros passos</a></li>
+				<li><a href="#addSprite" class="link-nav">Adicionando um sprite</a></li>
+				<li><a href="#moverObject" class="link-nav">Movendo um objeto</a></li>
+				<li><a href="#utilizarTeclas" class="link-nav">Utilizar teclas no seu jogo</a></li>
+				<li><a href="#Teclas" class="link-nav">Código de teclas</a></li>
+			</ul>
+		</section>
+		<section id="conteudo">
+			<section id="first" class="section-topico">
+				<h1 class="titulo-topico">Primeiros Passos</h1>
+				<p>Depois de você ter adicionado a biblioteca ao seu projeto, chega a hora de fazer o seu primeiro código utilizando:</p>
+				<section class="codigo">
+					<script src="https://gist.github.com/LucasSilvaD/22d370887639e8f12ca64080c64e77e4.js"></script>
+				</section>
+			</section>
+			<section id="addSprite" class="section-topico">
+				<h1 class="titulo-topico">Adicionando Sprites</h1>
+				<p>No exemplo anterior, você viu como fazer o seu primeiro código com a Biblioteca.<br><br> Agora, você vai aprender a adicionar sprites(imagens), afinal, o que é um jogo sem itens gráficos?</p>
+				<section class="codigo">
+					<script src="https://gist.github.com/LucasSilvaD/61b450c0af8606400932d7f32b448127.js"></script>
+				</section>
+			</section>
+			<section id="moverObject" class="section-topico">
+				<h1 class="titulo-topico">Mover um Objeto</h1>
+				<p>Depois de aprender a colocar textos, fazer seu primeiro exemplo e adicionar sprites, chegou a hora de deixar as coisas mais refinadas. Abaixo você verá um breve resumo de como mover os objetos que inseriu:</p>
+				<section class="codigo">
+					<script src="https://gist.github.com/LucasSilvaD/45aa448913a900c5d3c67b36d1985d3e.js"></script>
+				</section>
+			</section>
+			<section id="utilizarTeclas" class="section-topico">
+				<h1 class="titulo-topico">Utilizar Teclas</h1>
+				<p>No bloco de código abaixo você verá como utilizar teclas no seu jogo, seja para fazer movimentos ou o que desejar :)</p>
+				<section class="codigo">
+					<script src="https://gist.github.com/LucasSilvaD/aca1c9396497db9dc5a74393241e479f.js"></script>
+				</section>
+			</section>
+			<section id="teclas" class="section-topico">
+				<h1 class="titulo-topico">Teclas</h1>
+				<p>Agora que você já sabe utilizar o teclado usando a biblioteca, você verá os códigos de teclas que podem ser usados no seu projeto.</p>
+				<section class="codigo">
+					<script src="https://gist.github.com/LucasSilvaD/a7b9681d2ecadb04f51e084889f7d514.js"></script>
+				</section>
+			</section>
+		</section>
+	</main>
+	<div id="seta">
+		<a href="#install"><img src="img/seta.png" alt="seta"></a>
+	</div>
+	<script>
+		window.addEventListener('scroll', function(){
+			const seta = document.getElementById("seta")
+			if (window.scrollY > 0) {
+				seta.style.display = "block";
+			}			
+		})
+	</script>
+</body>
+</html>
