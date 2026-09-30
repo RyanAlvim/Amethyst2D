@@ -1,172 +1,92 @@
-# 💜 AmethystLib
+# 💜 Amethyst
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-1.8%2B-orange?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/2D%20Game%20Library-AmethystLib-8A2BE2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Java-8%2B-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 8+">
+  <img src="https://img.shields.io/badge/2D-Game%20Engine-8A2BE2?style=for-the-badge" alt="2D Game Engine">
+  <img src="https://img.shields.io/badge/Status-Experimental-6C757D?style=for-the-badge" alt="Experimental">
 </p>
 
 <p align="center">
-  <strong>Biblioteca Java desenvolvida para criação de jogos 2D.</strong>
+  <strong>Um framework em Java para desenvolvimento de jogos 2D.</strong>
 </p>
-
----
-
-## 🎮 Sobre o projeto
-
-**AmethystLib** é uma biblioteca desenvolvida em **Java** com o objetivo de fornecer uma base para criação de **jogos 2D**.
-
-O projeto foi desenvolvido do zero como um estudo prático de desenvolvimento de bibliotecas, programação orientada a objetos, processamento gráfico e criação de uma estrutura reutilizável para jogos.
-
----
-
-## ✨ Características
-
-- 🎮 Desenvolvimento de jogos 2D
-- ☕ Java 8+
-- 🧩 Biblioteca reutilizável
-- 🖼️ Renderização gráfica
-- ⌨️ Entrada de teclado
-- 🖱️ Interação com o usuário
-- 🔄 Game Loop
-- 📦 Estrutura modular
-
----
-
-## 🛠️ Tecnologias
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="70" height="70" alt="Java"/>
+  Amethyst nasceu como um projeto experimental para explorar a construção de uma estrutura própria para desenvolvimento de jogos utilizando Java.
 </p>
 
 ---
 
-# 🚀 Instalação
+## 🎮 Sobre
 
-## 1. Criando um projeto Java
+**Amethyst** é um projeto desenvolvido em **Java** com foco na criação de jogos e aplicações interativas em **2D**.
 
-Crie um novo projeto utilizando **Java 8 ou superior**.
+O projeto surgiu com o objetivo de compreender, na prática, como funciona a construção de uma estrutura própria para jogos, indo além da utilização de engines prontas.
 
-O exemplo abaixo utiliza o **Eclipse IDE**.
+Durante seu desenvolvimento foram explorados conceitos como:
 
-<p align="center">
-  <img src="images/01-create-project.png" width="800" alt="Criando um projeto Java">
-</p>
+- Game Loop
+- Renderização 2D
+- Processamento de eventos
+- Entrada do usuário
+- Programação Orientada a Objetos
+- Gerenciamento de recursos
+- Arquitetura de aplicações
+- Desenvolvimento de bibliotecas e frameworks
 
----
-
-## 2. Abrindo as propriedades
-
-Clique com o botão direito no projeto e selecione:
-
-**Properties**
-
-<p align="center">
-  <img src="images/02-properties.png" width="800" alt="Propriedades do projeto">
-</p>
+A Amethyst também serviu como laboratório para experimentar diferentes abordagens de desenvolvimento de jogos utilizando o ecossistema Java.
 
 ---
 
-## 3. Java Build Path
+# ✨ Principais objetivos
 
-Dentro das propriedades, acesse:
+A Amethyst foi criada com alguns objetivos principais:
 
-**Java Build Path**
+### 🎯 Aprender
 
-<p align="center">
-  <img src="images/03-build-path.png" width="800" alt="Java Build Path">
-</p>
+Compreender os principais componentes necessários para construir um framework de jogos 2D.
 
----
+### 🧩 Abstrair complexidade
 
-## 4. Adicionando a biblioteca
+Criar uma camada de abstração que permita desenvolver jogos sem precisar lidar diretamente com todos os detalhes de baixo nível.
 
-Clique em:
+### ♻️ Reutilização
 
-**Add External JARs...**
+Fornecer componentes que possam ser reutilizados em diferentes projetos.
 
-Selecione o arquivo `.jar` da **AmethystLib**.
+### ☕ Explorar Java
 
-<p align="center">
-  <img src="images/04-add-jar.png" width="800" alt="Adicionando a AmethystLib">
-</p>
-
-Depois clique em:
-
-**Apply and Close**
+Utilizar Java não apenas para aplicações tradicionais, mas também para desenvolvimento de aplicações gráficas e jogos.
 
 ---
 
-# 👋 Hello World
+# 🏗️ Conceito
 
-Após adicionar a biblioteca, crie um pacote e uma classe Java.
+A ideia central da Amethyst pode ser representada de forma simplificada:
 
-Agora você pode criar sua primeira aplicação utilizando a AmethystLib.
-
-<p align="center">
-  <img src="images/05-hello-world.png" width="800" alt="Hello World utilizando AmethystLib">
-</p>
-
----
-
-# ▶️ Executando
-
-Depois de executar o projeto, a aplicação será iniciada utilizando a estrutura fornecida pela biblioteca.
-
-<p align="center">
-  <img src="images/06-running.png" width="900" alt="AmethystLib em execução">
-</p>
-
----
-
-# 🧠 Conceitos envolvidos
-
-O desenvolvimento da AmethystLib envolveu conceitos como:
-
-- **Java**
-- **Programação Orientada a Objetos**
-- **Desenvolvimento de bibliotecas**
-- **Game Loop**
-- **Renderização gráfica**
-- **Entrada de usuário**
-- **Desenvolvimento de jogos 2D**
-- **Arquitetura de aplicações**
-
----
-
-# 🎯 Objetivo
-
-A AmethystLib foi criada como um projeto de estudo e experimentação em **desenvolvimento de jogos utilizando Java**.
-
-O projeto permitiu explorar a construção de uma biblioteca própria e trabalhar com conceitos fundamentais de desenvolvimento de jogos 2D.
-
----
-
-# 📜 Status
-
-> ⚠️ **Projeto antigo / experimental**
-
-A AmethystLib representa uma etapa do meu aprendizado em **Java, desenvolvimento de bibliotecas e programação de jogos 2D**.
-
----
-
-# 👨‍💻 Autor
-
-**Ryan Alvim**
-
-Desenvolvedor interessado em **Java, backend, desenvolvimento de software e criação de sistemas**.
-
-<p>
-  <a href="https://github.com/RyanAlvim">
-    <img src="https://img.shields.io/badge/GitHub-RyanAlvim-181717?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-</p>
-
----
-
-<div align="center">
-
-### 💜 AmethystLib
-
-**Java • 2D Game Development • Library Development**
-
-</div>
+```text
+                    ┌─────────────────────┐
+                    │       JOGO          │
+                    │                     │
+                    │  Regras             │
+                    │  Objetos            │
+                    │  Cenas              │
+                    │  Interações         │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │      AMETHYST       │
+                    │                     │
+                    │  Game Loop          │
+                    │  Input              │
+                    │  Renderização       │
+                    │  Recursos           │
+                    │  Eventos            │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │        JAVA         │
+                    │                     │
+                    │  Runtime / APIs     │
+                    └─────────────────────┘
